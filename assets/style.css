@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --main-color: white;
+    --secondary-color: black;
+    --accent-color: blue;
+    --seconday-accent: lightblue;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--accent-color);
+    color: var(--main-color);
+}
+
+main {
+    display: flex;
+}
+
+#searchSection {
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#futureWeatherData {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainCard {
+    border: 10px solid var(--accent-color);
+    margin: 20px;
+    background-color: var(--accent-color);
+}
+
+.card {
+    border: 10px solid var(--seconday-accent);
+    margin: 20px;
+    background-color: var(--seconday-accent);
+}
+
+li {
+    list-style: none;
+}

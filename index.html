@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+        <section id="searchSection">
+            <h2>Search for a City:</h2>
+            <input id="inputText" type="text">
+            <button id="formSubmit" type="submit">Search</button>
+            <div id="searchSection"></div>
+        </section>
+        <section class="weatherDisplaySection">
+            <section id="todayWeatherData">
+                <!-- current weather results -->
+            </section>
+            <section id="futureWeatherData">
+                <!-- <h3>5-day Forecast:</h3> -->
+            </section>
+        </section>
+    </main>
+</body>
+<script src="./assets/script.js"></script>
+</html>
+
+<!-- add dayjs -->
