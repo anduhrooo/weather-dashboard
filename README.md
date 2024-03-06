@@ -1,7 +1,7 @@
 # weather-dashboard
 
 ## Link
-https://anduhrooo.github.io/#
+https://anduhrooo.github.io/weather-dashboard/
 
 ## Description
 I built a weather dashboard that features dynamically updating html and css. I utilized a weather API to update the page with current weather and weather for the next 5 days. when the user searches for a city, the search is saved to local storage and saved to a list on the page for the user to retrieve later. when the page is refreshed, all data is restored.
